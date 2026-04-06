@@ -1,11 +1,11 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, to_date, trim
+from pyspark.sql.functions import col, to_timestamp, trim
 
 
 def get_spark() -> SparkSession:
     spark = (
         SparkSession.builder
-        .appName("bronze_to_silver_patients")
+        .appName("bronze_to_silver_observations")
         .getOrCreate()
     )
     return spark
@@ -26,29 +26,29 @@ def main() -> None:
     configure_s3(spark)
 
     df = spark.read.csv(
-        f"s3a://{bucket}/bronze/patients.csv",
+        f"s3a://{bucket}/bronze/observations.csv",
         header=True,
         inferSchema=True,
     )
 
     df_clean = (
         df
+        .withColumn("observation_id", trim(col("observation_id")))
         .withColumn("patient_id", trim(col("patient_id")))
-        .withColumn("given_name", trim(col("given_name")))
-        .withColumn("family_name", trim(col("family_name")))
-        .withColumn("gender", trim(col("gender")))
-        .withColumn("city", trim(col("city")))
-        .withColumn("source_system", trim(col("source_system")))
-        .withColumn("birth_date", to_date(col("birth_date")))
-        .dropDuplicates(["patient_id"])
+        .withColumn("encounter_id", trim(col("encounter_id")))
+        .withColumn("observation_code", trim(col("observation_code")))
+        .withColumn("unit", trim(col("unit")))
+        .withColumn("effective_time", to_timestamp(col("effective_time")))
+        .dropDuplicates(["observation_id"])
+        .filter(col("observation_id").isNotNull())
         .filter(col("patient_id").isNotNull())
     )
 
     df_clean.write.mode("overwrite").parquet(
-        f"s3a://{bucket}/silver/patients/"
+        f"s3a://{bucket}/silver/observations/"
     )
 
-    print("Patients Bronze -> Silver completed successfully.")
+    print("Observations Bronze -> Silver completed successfully.")
     spark.stop()
 
 

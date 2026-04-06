@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: patient_summary
+    columns:
+      - name: patient_id
+        tests:
+          - not_null
+          - unique

@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: public
+    database: healthcare_dw
+    schema: public
+    tables:
+      - name: silver_patients
+      - name: silver_encounters
+      - name: silver_observations

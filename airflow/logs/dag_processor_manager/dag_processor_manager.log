@@ -2059,3 +2059,1215 @@ File Path                                         PID  Runtime      # DAGs    # 
 /opt/airflow/dags/bronze_to_silver_dag.py        1988  0.00s             1           0  0.09s           2026-04-05T21:23:16
 ================================================================================
 [2026-04-05T21:24:06.926+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-04-06T14:36:30.738+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-04-06T14:36:30.739+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-04-06T14:36:30.740+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-06T14:36:30.740+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T14:36:30.758+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T14:36:44.979+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.36s           2026-04-06T14:36:31
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.11s           2026-04-06T14:36:30
+================================================================================
+[2026-04-06T14:37:15.293+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T14:37:01
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.15s           2026-04-06T14:37:01
+================================================================================
+[2026-04-06T14:37:45.532+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T14:37:32
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T14:37:31
+================================================================================
+[2026-04-06T14:38:15.748+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T14:38:03
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T14:38:01
+================================================================================
+[2026-04-06T14:38:45.960+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T14:38:35
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T14:38:31
+================================================================================
+[2026-04-06T14:39:16.197+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T14:39:05
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.09s           2026-04-06T14:39:02
+================================================================================
+[2026-04-06T14:39:46.410+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T14:39:36
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T14:39:32
+================================================================================
+[2026-04-06T14:40:16.625+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T14:40:07
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T14:40:02
+================================================================================
+[2026-04-06T14:40:46.846+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T14:40:39
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.09s           2026-04-06T14:40:32
+================================================================================
+[2026-04-06T14:41:17.056+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T14:41:10
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T14:41:02
+================================================================================
+[2026-04-06T14:41:31.115+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T14:41:31.135+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T14:41:47.306+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T14:41:40
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T14:41:33
+================================================================================
+[2026-04-06T14:42:17.511+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T14:42:11
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T14:42:03
+================================================================================
+[2026-04-06T14:42:47.722+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T14:42:42
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T14:42:33
+================================================================================
+[2026-04-06T14:43:17.929+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T14:43:14
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T14:43:03
+================================================================================
+[2026-04-06T14:43:48.140+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.32s           2026-04-06T14:43:45
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T14:43:34
+================================================================================
+[2026-04-06T14:44:16.724+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-04-06T15:14:47.065+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-04-06T15:14:47.066+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-04-06T15:14:47.067+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-06T15:14:47.068+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:14:47.089+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:14:47.176+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/bronze_to_silver_dag.py         172  0.05s             0           0
+/opt/airflow/dags/ingest_healthcare_sources.py    175  0.03s             0           0
+================================================================================
+[2026-04-06T15:15:17.374+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.32s           2026-04-06T15:14:47
+/opt/airflow/dags/bronze_to_silver_dag.py         809  0.00s             1           0  0.10s           2026-04-06T15:14:47
+================================================================================
+[2026-04-06T15:15:47.686+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.33s           2026-04-06T15:15:17
+/opt/airflow/dags/bronze_to_silver_dag.py        1247  0.00s             1           0  0.17s           2026-04-06T15:15:17
+================================================================================
+[2026-04-06T15:16:17.901+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T15:15:49
+/opt/airflow/dags/bronze_to_silver_dag.py        1258  0.00s             1           0  0.08s           2026-04-06T15:15:47
+================================================================================
+[2026-04-06T15:16:48.116+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:16:20
+/opt/airflow/dags/bronze_to_silver_dag.py        1269  0.00s             1           0  0.08s           2026-04-06T15:16:17
+================================================================================
+[2026-04-06T15:17:08.806+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-04-06T15:17:16.713+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-04-06T15:17:16.719+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-04-06T15:17:16.719+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-06T15:17:16.720+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:17:16.739+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:17:16.823+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/bronze_to_silver_dag.py         172  0.05s             0           0
+/opt/airflow/dags/ingest_healthcare_sources.py    175  0.03s             0           0
+================================================================================
+[2026-04-06T15:17:47.232+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py    841  0.00s             1           0  0.29s           2026-04-06T15:17:17
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.09s           2026-04-06T15:17:43
+================================================================================
+[2026-04-06T15:18:17.447+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.35s           2026-04-06T15:17:47
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.13s           2026-04-06T15:18:13
+================================================================================
+[2026-04-06T15:18:47.708+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:18:18
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T15:18:43
+================================================================================
+[2026-04-06T15:19:17.922+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:18:49
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T15:19:13
+================================================================================
+[2026-04-06T15:19:48.132+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:19:20
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T15:19:44
+================================================================================
+[2026-04-06T15:20:18.347+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:19:51
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T15:20:14
+================================================================================
+[2026-04-06T15:20:48.555+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T15:20:22
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T15:20:44
+================================================================================
+[2026-04-06T15:21:18.768+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T15:20:53
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.08s           2026-04-06T15:21:14
+================================================================================
+[2026-04-06T15:21:49.069+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:21:24
+/opt/airflow/dags/bronze_to_silver_dag.py                                1           0  0.09s           2026-04-06T15:21:22
+================================================================================
+[2026-04-06T15:22:16.269+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-04-06T15:22:25.673+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-04-06T15:22:25.677+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-04-06T15:22:25.677+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-06T15:22:25.678+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:22:25.699+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:22:25.784+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/bronze_to_silver_dag.py         172  0.04s             0           0
+/opt/airflow/dags/ingest_healthcare_sources.py    175  0.03s             0           0
+================================================================================
+[2026-04-06T15:22:55.997+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:22:26
+/opt/airflow/dags/bronze_to_silver_dag.py         913  0.00s             1           0  0.09s           2026-04-06T15:22:25
+================================================================================
+[2026-04-06T15:23:26.282+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.32s           2026-04-06T15:22:56
+/opt/airflow/dags/bronze_to_silver_dag.py        1274  0.00s             1           0  0.13s           2026-04-06T15:22:56
+================================================================================
+[2026-04-06T15:23:56.499+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T15:23:27
+/opt/airflow/dags/bronze_to_silver_dag.py        1285  0.00s             1           0  0.09s           2026-04-06T15:23:26
+================================================================================
+[2026-04-06T15:24:26.715+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:23:58
+/opt/airflow/dags/bronze_to_silver_dag.py        1296  0.00s             1           0  0.08s           2026-04-06T15:23:56
+================================================================================
+[2026-04-06T15:24:56.944+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:24:29
+/opt/airflow/dags/bronze_to_silver_dag.py        1307  0.00s             1           0  0.08s           2026-04-06T15:24:26
+================================================================================
+[2026-04-06T15:25:26.266+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-04-06T15:25:37.688+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-04-06T15:25:37.689+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-04-06T15:25:37.690+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-06T15:25:37.691+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:25:37.714+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:25:37.794+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/bronze_to_silver_dag.py         172  0.05s             0           0
+/opt/airflow/dags/ingest_healthcare_sources.py    175  0.03s             0           0
+================================================================================
+[2026-04-06T15:26:08.003+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.34s           2026-04-06T15:25:38
+/opt/airflow/dags/bronze_to_silver_dag.py         812  0.00s             1           0  0.10s           2026-04-06T15:25:37
+================================================================================
+[2026-04-06T15:26:38.299+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.38s           2026-04-06T15:26:08
+/opt/airflow/dags/bronze_to_silver_dag.py        1456  0.00s             1           0  0.15s           2026-04-06T15:26:08
+================================================================================
+[2026-04-06T15:27:08.540+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.39s           2026-04-06T15:26:39
+/opt/airflow/dags/bronze_to_silver_dag.py        1619  0.00s             1           0  0.11s           2026-04-06T15:26:38
+================================================================================
+[2026-04-06T15:27:38.762+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.32s           2026-04-06T15:27:10
+/opt/airflow/dags/bronze_to_silver_dag.py        1630  0.00s             1           0  0.09s           2026-04-06T15:27:08
+================================================================================
+[2026-04-06T15:28:08.972+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.26s           2026-04-06T15:27:42
+/opt/airflow/dags/bronze_to_silver_dag.py        1641  0.00s             1           0  0.08s           2026-04-06T15:27:38
+================================================================================
+[2026-04-06T15:28:39.191+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:28:12
+/opt/airflow/dags/bronze_to_silver_dag.py        1652  0.00s             1           0  0.08s           2026-04-06T15:28:09
+================================================================================
+[2026-04-06T15:29:09.402+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:28:43
+/opt/airflow/dags/bronze_to_silver_dag.py        1663  0.00s             1           0  0.08s           2026-04-06T15:28:39
+================================================================================
+[2026-04-06T15:29:39.615+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:29:14
+/opt/airflow/dags/bronze_to_silver_dag.py        1674  0.00s             1           0  0.08s           2026-04-06T15:29:09
+================================================================================
+[2026-04-06T15:30:09.827+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:29:45
+/opt/airflow/dags/bronze_to_silver_dag.py        1685  0.00s             1           0  0.08s           2026-04-06T15:29:39
+================================================================================
+[2026-04-06T15:30:38.016+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:30:38.037+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:30:40.065+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:30:17
+/opt/airflow/dags/bronze_to_silver_dag.py        1696  0.00s             1           0  0.08s           2026-04-06T15:30:09
+================================================================================
+[2026-04-06T15:31:10.278+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:30:47
+/opt/airflow/dags/bronze_to_silver_dag.py        1707  0.00s             1           0  0.08s           2026-04-06T15:30:40
+================================================================================
+[2026-04-06T15:31:40.477+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.33s           2026-04-06T15:31:18
+/opt/airflow/dags/bronze_to_silver_dag.py        1718  0.00s             1           0  0.08s           2026-04-06T15:31:10
+================================================================================
+[2026-04-06T15:32:10.684+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T15:31:49
+/opt/airflow/dags/bronze_to_silver_dag.py        1729  0.00s             1           0  0.08s           2026-04-06T15:31:40
+================================================================================
+[2026-04-06T15:32:40.896+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:32:21
+/opt/airflow/dags/bronze_to_silver_dag.py        1740  0.00s             1           0  0.08s           2026-04-06T15:32:10
+================================================================================
+[2026-04-06T15:33:11.102+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:32:52
+/opt/airflow/dags/bronze_to_silver_dag.py        1751  0.00s             1           0  0.08s           2026-04-06T15:32:40
+================================================================================
+[2026-04-06T15:33:41.313+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:33:23
+/opt/airflow/dags/bronze_to_silver_dag.py        1762  0.00s             1           0  0.08s           2026-04-06T15:33:11
+================================================================================
+[2026-04-06T15:34:11.516+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:33:54
+/opt/airflow/dags/bronze_to_silver_dag.py        1773  0.00s             1           0  0.08s           2026-04-06T15:33:41
+================================================================================
+[2026-04-06T15:34:41.727+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:34:25
+/opt/airflow/dags/bronze_to_silver_dag.py        1784  0.00s             1           0  0.09s           2026-04-06T15:34:11
+================================================================================
+[2026-04-06T15:35:11.932+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:34:57
+/opt/airflow/dags/bronze_to_silver_dag.py        1795  0.00s             1           0  0.08s           2026-04-06T15:34:41
+================================================================================
+[2026-04-06T15:35:38.106+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:35:38.126+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:35:42.162+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:35:28
+/opt/airflow/dags/bronze_to_silver_dag.py        1806  0.00s             1           0  0.08s           2026-04-06T15:35:12
+================================================================================
+[2026-04-06T15:36:11.020+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-04-06T15:36:11.021+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-04-06T15:36:11.021+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-06T15:36:11.022+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:36:11.042+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:36:11.109+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/bronze_to_silver_dag.py         172  0.04s             0           0
+/opt/airflow/dags/ingest_healthcare_sources.py    175  0.02s             0           0
+================================================================================
+[2026-04-06T15:36:41.290+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.27s           2026-04-06T15:36:11
+/opt/airflow/dags/bronze_to_silver_dag.py         183  0.00s             1           0  0.08s           2026-04-06T15:36:11
+================================================================================
+[2026-04-06T15:37:11.562+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.32s           2026-04-06T15:36:41
+/opt/airflow/dags/bronze_to_silver_dag.py         194  0.00s             1           0  0.12s           2026-04-06T15:36:41
+================================================================================
+[2026-04-06T15:37:41.788+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T15:37:12
+/opt/airflow/dags/bronze_to_silver_dag.py         205  0.00s             1           0  0.09s           2026-04-06T15:37:11
+================================================================================
+[2026-04-06T15:38:02.574+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-04-06T15:38:10.848+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-04-06T15:38:10.848+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-04-06T15:38:10.849+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-06T15:38:10.850+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:38:10.870+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:38:10.936+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/bronze_to_silver_dag.py         172  0.04s             0           0
+/opt/airflow/dags/ingest_healthcare_sources.py    175  0.02s             0           0
+================================================================================
+[2026-04-06T15:38:41.115+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:38:11
+/opt/airflow/dags/bronze_to_silver_dag.py         183  0.00s             1           0  0.08s           2026-04-06T15:38:10
+================================================================================
+[2026-04-06T15:39:11.399+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.34s           2026-04-06T15:38:41
+/opt/airflow/dags/bronze_to_silver_dag.py         194  0.00s             1           0  0.14s           2026-04-06T15:38:41
+================================================================================
+[2026-04-06T15:39:41.629+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:39:12
+/opt/airflow/dags/bronze_to_silver_dag.py         205  0.00s             1           0  0.09s           2026-04-06T15:39:11
+================================================================================
+[2026-04-06T15:40:11.857+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T15:39:43
+/opt/airflow/dags/bronze_to_silver_dag.py         216  0.01s             1           0  0.08s           2026-04-06T15:39:41
+================================================================================
+[2026-04-06T15:40:42.081+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.32s           2026-04-06T15:40:14
+/opt/airflow/dags/bronze_to_silver_dag.py         227  0.00s             1           0  0.09s           2026-04-06T15:40:11
+================================================================================
+[2026-04-06T15:40:45.529+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-04-06T15:40:53.259+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-04-06T15:40:53.260+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-04-06T15:40:53.261+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-06T15:40:53.261+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:40:53.281+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:40:53.348+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/bronze_to_silver_dag.py         172  0.04s             0           0
+/opt/airflow/dags/ingest_healthcare_sources.py    175  0.02s             0           0
+================================================================================
+[2026-04-06T15:41:23.549+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:40:53
+/opt/airflow/dags/bronze_to_silver_dag.py         859  0.01s             1           0  0.08s           2026-04-06T15:40:53
+================================================================================
+[2026-04-06T15:41:53.847+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.40s           2026-04-06T15:41:24
+/opt/airflow/dags/bronze_to_silver_dag.py        1295  0.00s             1           0  0.16s           2026-04-06T15:41:23
+================================================================================
+[2026-04-06T15:42:24.062+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:41:55
+/opt/airflow/dags/bronze_to_silver_dag.py        1306  0.00s             1           0  0.08s           2026-04-06T15:41:53
+================================================================================
+[2026-04-06T15:42:54.275+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:42:26
+/opt/airflow/dags/bronze_to_silver_dag.py        1317  0.00s             1           0  0.08s           2026-04-06T15:42:24
+================================================================================
+[2026-04-06T15:43:24.479+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:42:57
+/opt/airflow/dags/bronze_to_silver_dag.py        1328  0.00s             1           0  0.08s           2026-04-06T15:42:54
+================================================================================
+[2026-04-06T15:43:54.689+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:43:28
+/opt/airflow/dags/bronze_to_silver_dag.py        1339  0.00s             1           0  0.08s           2026-04-06T15:43:24
+================================================================================
+[2026-04-06T15:44:24.897+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:44:00
+/opt/airflow/dags/bronze_to_silver_dag.py        1350  0.00s             1           0  0.08s           2026-04-06T15:43:54
+================================================================================
+[2026-04-06T15:44:55.108+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:44:31
+/opt/airflow/dags/bronze_to_silver_dag.py        1361  0.00s             1           0  0.08s           2026-04-06T15:44:24
+================================================================================
+[2026-04-06T15:45:25.318+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:45:02
+/opt/airflow/dags/bronze_to_silver_dag.py        1372  0.00s             1           0  0.08s           2026-04-06T15:44:55
+================================================================================
+[2026-04-06T15:45:53.509+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:45:53.530+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:45:55.556+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:45:33
+/opt/airflow/dags/bronze_to_silver_dag.py        1383  0.00s             1           0  0.08s           2026-04-06T15:45:25
+================================================================================
+[2026-04-06T15:46:25.771+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:46:04
+/opt/airflow/dags/bronze_to_silver_dag.py        1394  0.01s             1           0  0.08s           2026-04-06T15:45:55
+================================================================================
+[2026-04-06T15:46:55.987+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:46:36
+/opt/airflow/dags/bronze_to_silver_dag.py        1405  0.00s             1           0  0.08s           2026-04-06T15:46:25
+================================================================================
+[2026-04-06T15:47:26.192+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:47:07
+/opt/airflow/dags/bronze_to_silver_dag.py        1416  0.00s             1           0  0.08s           2026-04-06T15:46:56
+================================================================================
+[2026-04-06T15:47:56.398+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.32s           2026-04-06T15:47:38
+/opt/airflow/dags/bronze_to_silver_dag.py        1427  0.00s             1           0  0.08s           2026-04-06T15:47:26
+================================================================================
+[2026-04-06T15:48:26.599+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:48:09
+/opt/airflow/dags/bronze_to_silver_dag.py        1438  0.00s             1           0  0.08s           2026-04-06T15:47:56
+================================================================================
+[2026-04-06T15:48:56.796+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:48:40
+/opt/airflow/dags/bronze_to_silver_dag.py        1449  0.00s             1           0  0.08s           2026-04-06T15:48:26
+================================================================================
+[2026-04-06T15:49:26.994+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:49:12
+/opt/airflow/dags/bronze_to_silver_dag.py        1460  0.00s             1           0  0.08s           2026-04-06T15:48:56
+================================================================================
+[2026-04-06T15:49:57.188+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:49:43
+/opt/airflow/dags/bronze_to_silver_dag.py        1471  0.00s             1           0  0.08s           2026-04-06T15:49:27
+================================================================================
+[2026-04-06T15:50:27.383+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:50:14
+/opt/airflow/dags/bronze_to_silver_dag.py        1482  0.00s             1           0  0.08s           2026-04-06T15:49:57
+================================================================================
+[2026-04-06T15:50:53.550+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:50:53.570+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:50:57.607+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:50:45
+/opt/airflow/dags/bronze_to_silver_dag.py        1493  0.00s             1           0  0.08s           2026-04-06T15:50:27
+================================================================================
+[2026-04-06T15:51:27.795+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:51:16
+/opt/airflow/dags/bronze_to_silver_dag.py        1504  0.00s             1           0  0.08s           2026-04-06T15:50:57
+================================================================================
+[2026-04-06T15:51:58.007+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.66s           2026-04-06T15:51:48
+/opt/airflow/dags/bronze_to_silver_dag.py        1515  0.00s             1           0  0.08s           2026-04-06T15:51:27
+================================================================================
+[2026-04-06T15:52:28.218+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.33s           2026-04-06T15:52:19
+/opt/airflow/dags/bronze_to_silver_dag.py        1526  0.00s             1           0  0.09s           2026-04-06T15:51:58
+================================================================================
+[2026-04-06T15:52:58.405+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:52:50
+/opt/airflow/dags/bronze_to_silver_dag.py        1537  0.00s             1           0  0.08s           2026-04-06T15:52:28
+================================================================================
+[2026-04-06T15:53:28.595+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:53:21
+/opt/airflow/dags/bronze_to_silver_dag.py        1548  0.00s             1           0  0.08s           2026-04-06T15:52:58
+================================================================================
+[2026-04-06T15:53:58.776+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:53:53
+/opt/airflow/dags/bronze_to_silver_dag.py        1559  0.00s             1           0  0.07s           2026-04-06T15:53:28
+================================================================================
+[2026-04-06T15:54:28.965+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:54:24
+/opt/airflow/dags/bronze_to_silver_dag.py        1570  0.00s             1           0  0.08s           2026-04-06T15:53:58
+================================================================================
+[2026-04-06T15:54:59.153+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:54:55
+/opt/airflow/dags/bronze_to_silver_dag.py        1581  0.00s             1           0  0.08s           2026-04-06T15:54:29
+================================================================================
+[2026-04-06T15:55:29.332+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:55:26
+/opt/airflow/dags/bronze_to_silver_dag.py        1592  0.00s             1           0  0.08s           2026-04-06T15:54:59
+================================================================================
+[2026-04-06T15:55:54.443+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T15:55:54.463+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T15:55:59.514+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:55:57
+/opt/airflow/dags/bronze_to_silver_dag.py        1603  0.00s             1           0  0.08s           2026-04-06T15:55:29
+================================================================================
+[2026-04-06T15:56:29.693+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:56:28
+/opt/airflow/dags/bronze_to_silver_dag.py        1614  0.00s             1           0  0.08s           2026-04-06T15:55:59
+================================================================================
+[2026-04-06T15:56:59.841+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py   1622  0.00s             1           0  0.30s           2026-04-06T15:56:28
+/opt/airflow/dags/bronze_to_silver_dag.py        1619  0.01s             1           0  0.08s           2026-04-06T15:56:29
+================================================================================
+[2026-04-06T15:57:30.057+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T15:57:00
+/opt/airflow/dags/bronze_to_silver_dag.py        1630  0.00s             1           0  0.09s           2026-04-06T15:56:59
+================================================================================
+[2026-04-06T15:58:00.287+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T15:57:30
+/opt/airflow/dags/bronze_to_silver_dag.py        1641  0.00s             1           0  0.08s           2026-04-06T15:57:30
+================================================================================
+[2026-04-06T15:58:30.510+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:58:01
+/opt/airflow/dags/bronze_to_silver_dag.py        1652  0.00s             1           0  0.08s           2026-04-06T15:58:00
+================================================================================
+[2026-04-06T15:59:00.725+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:58:32
+/opt/airflow/dags/bronze_to_silver_dag.py        1663  0.00s             1           0  0.08s           2026-04-06T15:58:30
+================================================================================
+[2026-04-06T15:59:30.941+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:59:04
+/opt/airflow/dags/bronze_to_silver_dag.py        1674  0.00s             1           0  0.08s           2026-04-06T15:59:00
+================================================================================
+[2026-04-06T16:00:01.150+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T15:59:35
+/opt/airflow/dags/bronze_to_silver_dag.py        1685  0.00s             1           0  0.08s           2026-04-06T15:59:31
+================================================================================
+[2026-04-06T16:00:31.359+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T16:00:06
+/opt/airflow/dags/bronze_to_silver_dag.py        1696  0.00s             1           0  0.08s           2026-04-06T16:00:01
+================================================================================
+[2026-04-06T16:00:54.533+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T16:00:54.553+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T16:01:01.602+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T16:00:37
+/opt/airflow/dags/bronze_to_silver_dag.py        1707  0.00s             1           0  0.08s           2026-04-06T16:00:31
+================================================================================
+[2026-04-06T16:01:31.809+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T16:01:07
+/opt/airflow/dags/bronze_to_silver_dag.py        1718  0.00s             1           0  0.08s           2026-04-06T16:01:01
+================================================================================
+[2026-04-06T16:02:02.026+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T16:01:39
+/opt/airflow/dags/bronze_to_silver_dag.py        1729  0.00s             1           0  0.08s           2026-04-06T16:01:31
+================================================================================
+[2026-04-06T16:02:32.237+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T16:02:10
+/opt/airflow/dags/bronze_to_silver_dag.py        1740  0.00s             1           0  0.08s           2026-04-06T16:02:02
+================================================================================
+[2026-04-06T16:03:02.442+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T16:02:41
+/opt/airflow/dags/bronze_to_silver_dag.py        1751  0.00s             1           0  0.08s           2026-04-06T16:02:32
+================================================================================
+[2026-04-06T16:03:32.647+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T16:03:12
+/opt/airflow/dags/bronze_to_silver_dag.py        1762  0.00s             1           0  0.08s           2026-04-06T16:03:02
+================================================================================
+[2026-04-06T16:04:02.851+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T16:03:44
+/opt/airflow/dags/bronze_to_silver_dag.py        1773  0.00s             1           0  0.08s           2026-04-06T16:03:32
+================================================================================
+[2026-04-06T16:04:33.065+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.31s           2026-04-06T16:04:15
+/opt/airflow/dags/bronze_to_silver_dag.py        1784  0.00s             1           0  0.09s           2026-04-06T16:04:02
+================================================================================
+[2026-04-06T16:05:03.289+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.34s           2026-04-06T16:04:46
+/opt/airflow/dags/bronze_to_silver_dag.py        1795  0.00s             1           0  0.09s           2026-04-06T16:04:33
+================================================================================
+[2026-04-06T16:05:33.498+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T16:05:17
+/opt/airflow/dags/bronze_to_silver_dag.py        1806  0.00s             1           0  0.09s           2026-04-06T16:05:03
+================================================================================
+[2026-04-06T16:05:54.664+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T16:05:54.685+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T16:06:03.743+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T16:05:48
+/opt/airflow/dags/bronze_to_silver_dag.py        1817  0.00s             1           0  0.09s           2026-04-06T16:05:33
+================================================================================
+[2026-04-06T16:06:28.903+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-04-06T16:06:38.925+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-04-06T16:06:38.925+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-04-06T16:06:38.926+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-06T16:06:38.927+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-06T16:06:38.948+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-06T16:06:39.020+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/bronze_to_silver_dag.py         172  0.04s             0           0
+/opt/airflow/dags/ingest_healthcare_sources.py    175  0.03s             0           0
+================================================================================
+[2026-04-06T16:07:09.216+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.30s           2026-04-06T16:06:39
+/opt/airflow/dags/bronze_to_silver_dag.py         810  0.01s             1           0  0.08s           2026-04-06T16:06:39
+================================================================================
+[2026-04-06T16:07:39.596+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.46s           2026-04-06T16:07:09
+/opt/airflow/dags/bronze_to_silver_dag.py        1400  0.00s             1           0  0.24s           2026-04-06T16:07:09
+================================================================================
+[2026-04-06T16:08:09.820+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.37s           2026-04-06T16:07:40
+/opt/airflow/dags/bronze_to_silver_dag.py        1624  0.00s             1           0  0.09s           2026-04-06T16:07:39
+================================================================================
+[2026-04-06T16:08:40.036+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T16:08:12
+/opt/airflow/dags/bronze_to_silver_dag.py        1635  0.00s             1           0  0.08s           2026-04-06T16:08:09
+================================================================================
+[2026-04-06T16:09:10.254+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T16:08:43
+/opt/airflow/dags/bronze_to_silver_dag.py        1646  0.00s             1           0  0.08s           2026-04-06T16:08:40
+================================================================================
+[2026-04-06T16:09:40.477+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T16:09:13
+/opt/airflow/dags/bronze_to_silver_dag.py        1657  0.00s             1           0  0.08s           2026-04-06T16:09:10
+================================================================================
+[2026-04-06T16:10:10.697+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.28s           2026-04-06T16:09:44
+/opt/airflow/dags/bronze_to_silver_dag.py        1668  0.00s             1           0  0.08s           2026-04-06T16:09:40
+================================================================================
+[2026-04-06T16:10:40.917+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ingest_healthcare_sources.py                           1           0  0.29s           2026-04-06T16:10:15
+/opt/airflow/dags/bronze_to_silver_dag.py        1679  0.00s             1           0  0.08s           2026-04-06T16:10:10
+================================================================================
+[2026-04-06T16:10:43.582+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
