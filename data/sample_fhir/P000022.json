@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000022",
+  "name": [
+    {
+      "given": [
+        "Tracy"
+      ],
+      "family": "Thomas"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "2022-08-16",
+  "address": [
+    {
+      "city": "Stephensborough"
+    }
+  ]
+}

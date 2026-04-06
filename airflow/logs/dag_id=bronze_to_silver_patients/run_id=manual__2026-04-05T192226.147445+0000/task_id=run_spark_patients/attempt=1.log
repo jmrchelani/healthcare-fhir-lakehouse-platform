@@ -1,0 +1,27 @@
+[2026-04-05T19:22:27.270+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bronze_to_silver_patients.run_spark_patients manual__2026-04-05T19:22:26.147445+00:00 [queued]>
+[2026-04-05T19:22:27.275+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bronze_to_silver_patients.run_spark_patients manual__2026-04-05T19:22:26.147445+00:00 [queued]>
+[2026-04-05T19:22:27.275+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-04-05T19:22:27.283+0000] {taskinstance.py:2217} INFO - Executing <Task(BashOperator): run_spark_patients> on 2026-04-05 19:22:26.147445+00:00
+[2026-04-05T19:22:27.289+0000] {standard_task_runner.py:60} INFO - Started process 206 to run task
+[2026-04-05T19:22:27.292+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'bronze_to_silver_patients', 'run_spark_patients', 'manual__2026-04-05T19:22:26.147445+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/bronze_to_silver_dag.py', '--cfg-path', '/tmp/tmptzg7_rww']
+[2026-04-05T19:22:27.294+0000] {standard_task_runner.py:88} INFO - Job 10: Subtask run_spark_patients
+[2026-04-05T19:22:27.343+0000] {task_command.py:423} INFO - Running <TaskInstance: bronze_to_silver_patients.run_spark_patients manual__2026-04-05T19:22:26.147445+00:00 [running]> on host 63917c15077b
+[2026-04-05T19:22:27.413+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='bronze_to_silver_patients' AIRFLOW_CTX_TASK_ID='run_spark_patients' AIRFLOW_CTX_EXECUTION_DATE='2026-04-05T19:22:26.147445+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-05T19:22:26.147445+00:00'
+[2026-04-05T19:22:27.414+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-05T19:22:27.416+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n/opt/airflow/spark/bin/spark-submit   --master spark://spark-master:7077   /opt/airflow/spark/jobs/bronze_to_silver_patients.py\n        ']
+[2026-04-05T19:22:27.425+0000] {subprocess.py:86} INFO - Output:
+[2026-04-05T19:22:27.428+0000] {subprocess.py:93} INFO - /usr/bin/bash: line 2: /opt/airflow/spark/bin/spark-submit: No such file or directory
+[2026-04-05T19:22:27.429+0000] {subprocess.py:97} INFO - Command exited with return code 127
+[2026-04-05T19:22:27.439+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2026-04-05T19:22:27.441+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=bronze_to_silver_patients, task_id=run_spark_patients, execution_date=20260405T192226, start_date=20260405T192227, end_date=20260405T192227
+[2026-04-05T19:22:27.450+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 10 for task run_spark_patients (Bash command failed. The command returned a non-zero exit code 127.; 206)
+[2026-04-05T19:22:27.465+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-04-05T19:22:27.480+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

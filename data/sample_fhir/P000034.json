@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000034",
+  "name": [
+    {
+      "given": [
+        "Marissa"
+      ],
+      "family": "Kaufman"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1968-03-14",
+  "address": [
+    {
+      "city": "Wrightberg"
+    }
+  ]
+}

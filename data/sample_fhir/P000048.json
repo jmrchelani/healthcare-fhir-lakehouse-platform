@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000048",
+  "name": [
+    {
+      "given": [
+        "Christopher"
+      ],
+      "family": "Schwartz"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "2014-08-17",
+  "address": [
+    {
+      "city": "East Travis"
+    }
+  ]
+}

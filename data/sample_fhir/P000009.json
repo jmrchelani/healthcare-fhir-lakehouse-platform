@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000009",
+  "name": [
+    {
+      "given": [
+        "Whitney"
+      ],
+      "family": "Barton"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1964-10-06",
+  "address": [
+    {
+      "city": "Freemanburgh"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000049",
+  "name": [
+    {
+      "given": [
+        "Susan"
+      ],
+      "family": "Rivas"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1939-09-04",
+  "address": [
+    {
+      "city": "New Timothyside"
+    }
+  ]
+}

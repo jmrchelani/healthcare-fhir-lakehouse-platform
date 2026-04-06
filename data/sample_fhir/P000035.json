@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000035",
+  "name": [
+    {
+      "given": [
+        "Susan"
+      ],
+      "family": "Robles"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1995-07-14",
+  "address": [
+    {
+      "city": "Mitchellbury"
+    }
+  ]
+}

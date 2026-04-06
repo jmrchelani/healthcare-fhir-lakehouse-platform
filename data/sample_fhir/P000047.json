@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000047",
+  "name": [
+    {
+      "given": [
+        "Yolanda"
+      ],
+      "family": "Adkins"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2022-11-19",
+  "address": [
+    {
+      "city": "Tylerborough"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000031",
+  "name": [
+    {
+      "given": [
+        "Benjamin"
+      ],
+      "family": "Aguilar"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2002-03-04",
+  "address": [
+    {
+      "city": "Greenechester"
+    }
+  ]
+}

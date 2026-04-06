@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000017",
+  "name": [
+    {
+      "given": [
+        "Alicia"
+      ],
+      "family": "Williams"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1993-09-05",
+  "address": [
+    {
+      "city": "West Zachary"
+    }
+  ]
+}

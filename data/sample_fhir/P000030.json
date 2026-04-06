@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000030",
+  "name": [
+    {
+      "given": [
+        "Kristina"
+      ],
+      "family": "Johnson"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1983-01-20",
+  "address": [
+    {
+      "city": "West Marytown"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000046",
+  "name": [
+    {
+      "given": [
+        "Michael"
+      ],
+      "family": "Ortiz"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1934-03-09",
+  "address": [
+    {
+      "city": "North Kari"
+    }
+  ]
+}

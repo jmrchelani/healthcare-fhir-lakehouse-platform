@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000024",
+  "name": [
+    {
+      "given": [
+        "Rachel"
+      ],
+      "family": "Gonzalez"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1980-04-27",
+  "address": [
+    {
+      "city": "Derekmouth"
+    }
+  ]
+}

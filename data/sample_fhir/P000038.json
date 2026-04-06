@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000038",
+  "name": [
+    {
+      "given": [
+        "Frederick"
+      ],
+      "family": "Rodriguez"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1975-10-28",
+  "address": [
+    {
+      "city": "Kellyshire"
+    }
+  ]
+}

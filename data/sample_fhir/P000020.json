@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000020",
+  "name": [
+    {
+      "given": [
+        "Ruben"
+      ],
+      "family": "Collins"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1997-08-28",
+  "address": [
+    {
+      "city": "East Cindystad"
+    }
+  ]
+}

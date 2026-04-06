@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000004",
+  "name": [
+    {
+      "given": [
+        "Stephanie"
+      ],
+      "family": "Schwartz"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1975-05-31",
+  "address": [
+    {
+      "city": "Jacksonland"
+    }
+  ]
+}

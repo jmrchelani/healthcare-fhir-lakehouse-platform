@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "P000036",
+  "name": [
+    {
+      "given": [
+        "Courtney"
+      ],
+      "family": "Richardson"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1960-05-30",
+  "address": [
+    {
+      "city": "East Larry"
+    }
+  ]
+}
