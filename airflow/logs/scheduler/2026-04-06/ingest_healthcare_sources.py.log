@@ -915,3 +915,17 @@
 [2026-04-06T16:20:09.118+0000] {logging_mixin.py:188} INFO - [2026-04-06T16:20:09.117+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2026-04-06T16:20:09.132+0000] {logging_mixin.py:188} INFO - [2026-04-06T16:20:09.132+0000] {dag.py:3834} INFO - Setting next_dagrun for ingest_healthcare_sources to 2026-04-06 00:00:00+00:00, run_after=2026-04-07 00:00:00+00:00
 [2026-04-06T16:20:09.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_healthcare_sources.py took 0.253 seconds
+[2026-04-06T16:20:40.109+0000] {processor.py:161} INFO - Started process (PID=232) to work on /opt/airflow/dags/ingest_healthcare_sources.py
+[2026-04-06T16:20:40.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_healthcare_sources.py for tasks to queue
+[2026-04-06T16:20:40.110+0000] {logging_mixin.py:188} INFO - [2026-04-06T16:20:40.110+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_healthcare_sources.py
+[2026-04-06T16:20:40.331+0000] {processor.py:840} INFO - DAG(s) 'ingest_healthcare_sources' retrieved from /opt/airflow/dags/ingest_healthcare_sources.py
+[2026-04-06T16:20:40.356+0000] {logging_mixin.py:188} INFO - [2026-04-06T16:20:40.356+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-04-06T16:20:40.373+0000] {logging_mixin.py:188} INFO - [2026-04-06T16:20:40.372+0000] {dag.py:3834} INFO - Setting next_dagrun for ingest_healthcare_sources to 2026-04-06 00:00:00+00:00, run_after=2026-04-07 00:00:00+00:00
+[2026-04-06T16:20:40.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_healthcare_sources.py took 0.279 seconds
+[2026-04-06T16:21:11.333+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/ingest_healthcare_sources.py
+[2026-04-06T16:21:11.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest_healthcare_sources.py for tasks to queue
+[2026-04-06T16:21:11.334+0000] {logging_mixin.py:188} INFO - [2026-04-06T16:21:11.334+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_healthcare_sources.py
+[2026-04-06T16:21:11.549+0000] {processor.py:840} INFO - DAG(s) 'ingest_healthcare_sources' retrieved from /opt/airflow/dags/ingest_healthcare_sources.py
+[2026-04-06T16:21:11.572+0000] {logging_mixin.py:188} INFO - [2026-04-06T16:21:11.571+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-04-06T16:21:11.586+0000] {logging_mixin.py:188} INFO - [2026-04-06T16:21:11.585+0000] {dag.py:3834} INFO - Setting next_dagrun for ingest_healthcare_sources to 2026-04-06 00:00:00+00:00, run_after=2026-04-07 00:00:00+00:00
+[2026-04-06T16:21:11.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest_healthcare_sources.py took 0.267 seconds
