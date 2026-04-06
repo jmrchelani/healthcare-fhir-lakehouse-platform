@@ -4,3 +4,5 @@ sqlalchemy==2.0.32
 psycopg2-binary==2.9.11
 minio==7.2.7
 dbt_postgres==1.10.0
+great_expectations==1.15.2
+sqlalchemy==2.0.49

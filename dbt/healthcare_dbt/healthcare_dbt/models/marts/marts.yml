@@ -7,3 +7,18 @@ models:
         tests:
           - not_null
           - unique
+
+  - name: provider_utilization
+    columns:
+      - name: provider_id
+        tests:
+          - not_null
+          - unique
+
+      - name: total_encounters
+        tests:
+          - not_null
+
+      - name: total_patients_served
+        tests:
+          - not_null
